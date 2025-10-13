@@ -4,7 +4,7 @@ import mujoco
 import mujoco.viewer
 
 
-model = mujoco.MjModel.from_xml_path("crane_x7_d435.urdf")
+model = mujoco.MjModel.from_xml_path("mjmodel.xml")
 data  = mujoco.MjData(model)
 
 with mujoco.viewer.launch_passive(model, data) as viewer:
