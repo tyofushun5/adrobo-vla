@@ -5,7 +5,7 @@ env = gym.make(
     "PickCube-v1",
     obs_mode="state",
     control_mode="pd_joint_delta_pos",
-    num_envs=16,
+    num_envs=1,
     parallel_in_single_scene=True,
     viewer_camera_configs=dict(shader_pack="rt-fast"),
 )
