@@ -2,20 +2,20 @@
   <compiler angle="radian"/>
 
   <asset>
-    <mesh name="mounting_plate" content_type="model/stl" file="mounting_plate.stl"/>
-    <mesh name="base_fixed_part" content_type="model/stl" file="base_fixed_part.stl"/>
-    <mesh name="rotating_link_type_1_fixed_part" content_type="model/stl" file="rotating_link_type_1_fixed_part.stl"/>
-    <mesh name="joint_cover" content_type="model/stl" file="joint_cover.stl"/>
-    <mesh name="rotating_link_type_1_revolute_part" content_type="model/stl" file="rotating_link_type_1_revolute_part.stl"/>
-    <mesh name="rotating_link_type_2_fixed_part" content_type="model/stl" file="rotating_link_type_2_fixed_part.stl"/>
-    <mesh name="rotating_link_type_2_revolute_part" content_type="model/stl" file="rotating_link_type_2_revolute_part.stl"/>
-    <mesh name="rtcorp_logo_name" content_type="model/stl" file="rtcorp_logo_name.stl"/>
-    <mesh name="rtcorp_logo_rabbit" content_type="model/stl" file="rtcorp_logo_rabbit.stl"/>
-    <mesh name="wrist" content_type="model/stl" file="wrist.stl"/>
-    <mesh name="realsense_d435" content_type="model/stl" file="d435i.stl" scale="0.001 0.001 0.001"/>
-    <mesh name="wide_two_finger_gripper_actuator" content_type="model/stl" file="wide_two_finger_gripper_actuator.stl"/>
-    <mesh name="wide_two_finger_gripper_finger_a" content_type="model/stl" file="wide_two_finger_gripper_finger_a.stl"/>
-    <mesh name="wide_two_finger_gripper_finger_b" content_type="model/stl" file="wide_two_finger_gripper_finger_b.stl"/>
+    <mesh name="mounting_plate" content_type="model/stl" file="meshes/collision/mounting_plate.stl"/>
+    <mesh name="base_fixed_part" content_type="model/stl" file="meshes/collision/base_fixed_part.stl"/>
+    <mesh name="rotating_link_type_1_fixed_part" content_type="model/stl" file="meshes/collision/rotating_link_type_1_fixed_part.stl"/>
+    <mesh name="joint_cover" content_type="model/stl" file="meshes/collision/joint_cover.stl"/>
+    <mesh name="rotating_link_type_1_revolute_part" content_type="model/stl" file="meshes/collision/rotating_link_type_1_revolute_part.stl"/>
+    <mesh name="rotating_link_type_2_fixed_part" content_type="model/stl" file="meshes/collision/rotating_link_type_2_fixed_part.stl"/>
+    <mesh name="rotating_link_type_2_revolute_part" content_type="model/stl" file="meshes/collision/rotating_link_type_2_revolute_part.stl"/>
+    <mesh name="rtcorp_logo_name" content_type="model/stl" file="meshes/collision/rtcorp_logo_name.stl"/>
+    <mesh name="rtcorp_logo_rabbit" content_type="model/stl" file="meshes/collision/rtcorp_logo_rabbit.stl"/>
+    <mesh name="wrist" content_type="model/stl" file="meshes/collision/wrist.stl"/>
+    <mesh name="realsense_d435" content_type="model/stl" file="meshes/collision/d435i.stl" scale="0.001 0.001 0.001"/>
+    <mesh name="wide_two_finger_gripper_actuator" content_type="model/stl" file="meshes/collision/wide_two_finger_gripper_actuator.stl"/>
+    <mesh name="wide_two_finger_gripper_finger_a" content_type="model/stl" file="meshes/collision/wide_two_finger_gripper_finger_a.stl"/>
+    <mesh name="wide_two_finger_gripper_finger_b" content_type="model/stl" file="meshes/collision/wide_two_finger_gripper_finger_b.stl"/>
   </asset>
 
   <worldbody>
