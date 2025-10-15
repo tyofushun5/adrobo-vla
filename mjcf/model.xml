@@ -25,6 +25,7 @@
   <worldbody>
     <light directional="true" diffuse=".4 .4 .4" specular="0.1 0.1 0.1" pos="0 0 5.0" dir="0 0 -1" castshadow="false"/>
     <light directional="true" diffuse=".6 .6 .6" specular="0.2 0.2 0.2" pos="0 0 4" dir="0 0 -1"/>
+  　<geom name="ground" type="plane" size="0 0 1" pos="0.001 0 0" quat="1 0 0 0" material="matplane" condim="1" conaffinity='15'/>
     <geom type="mesh" rgba="0.2 0.2 0.2 1" mesh="mounting_plate"/>
     <geom pos="0 0 0.005" quat="1 0 0 0" type="mesh" rgba="1 0.3 0.3 1" mesh="base_fixed_part"/>
     <body name="crane_x7_shoulder_revolute_part_link" pos="0 0 0.041">
