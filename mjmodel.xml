@@ -12,7 +12,7 @@
     <mesh name="rtcorp_logo_name" content_type="model/stl" file="rtcorp_logo_name.stl"/>
     <mesh name="rtcorp_logo_rabbit" content_type="model/stl" file="rtcorp_logo_rabbit.stl"/>
     <mesh name="wrist" content_type="model/stl" file="wrist.stl"/>
-    <mesh name="realsense_d435" content_type="model/stl" file="d435_fixed.stl"/>
+    <mesh name="realsense_d435" content_type="model/stl" file="d435i.stl" scale="0.001 0.001 0.001"/>
     <mesh name="wide_two_finger_gripper_actuator" content_type="model/stl" file="wide_two_finger_gripper_actuator.stl"/>
     <mesh name="wide_two_finger_gripper_finger_a" content_type="model/stl" file="wide_two_finger_gripper_finger_a.stl"/>
     <mesh name="wide_two_finger_gripper_finger_b" content_type="model/stl" file="wide_two_finger_gripper_finger_b.stl"/>
