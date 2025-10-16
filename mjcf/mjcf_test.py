@@ -1,8 +1,6 @@
 import time
 
-import mujoco
 import mujoco.viewer
-
 
 model = mujoco.MjModel.from_xml_path("crane_x7.xml")
 

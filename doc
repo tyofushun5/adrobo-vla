@@ -1,0 +1,2 @@
+cd mjcf
+python test.py -r "crane_x7" -b "gpu"
