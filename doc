@@ -1,2 +1,4 @@
 cd mjcf
 python test.py -r "crane_x7" -b "gpu"
+
+python test.py -r "crane_x7" -c "pd_joint_delta_pos" -b "gpu" --random-actions
